@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>Test</title>
+		<script type="text/javascript" src="cli.js"></script>
+	</head>
+	<body>
+		<p id="console">root@cucuX:~#</p>
+		<script type="text/javascript">
+			handler.setConsoleLine(document.getElementById('console'));
+			document.onkeypress = function(e) {
+				init_keyboard(e);
+			}
+		</script>
+	</body>
+</html>
